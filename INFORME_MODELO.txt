@@ -1,0 +1,7 @@
+NOTA PARA EL INFORME
+
+El enunciado no determina de forma inequívoca cómo deben combinarse los porcentajes por tipo y los tiempos medios entre llegadas por tipo. El simulador adopta una hipótesis reproducible: llegada Poisson por fila con intervalo medio ponderado de 4,55 minutos y selección de clase por los porcentajes dados. Los tiempos de servicio se generan exponencialmente según la clase.
+
+La cola agregada tiene servicio mixto y, por tanto, no es estrictamente M/M/1 homogénea. Los cálculos M/M/1 por categoría se presentan como referencia separada. El usuario Normal tiene rho=1 y no posee estado estable teórico.
+
+No afirmar calibración con datos reales si no se recopilan registros del parqueadero. El calentamiento se estima con promedio móvil y debe revisarse visualmente.

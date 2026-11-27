@@ -1,0 +1,59 @@
+{
+  "cajeros": 3,
+  "duracion_minutos_por_replica": 10000,
+  "replicas": 10,
+  "semilla": 42,
+  "intervalo_llegada_ponderado_min": 4.65,
+  "porcentajes": {
+    "Rápido": 0.25,
+    "Normal": 0.2,
+    "Lento": 0.275,
+    "Muy lento": 0.275
+  },
+  "tiempos_servicio_medios": {
+    "Rápido": 1.0,
+    "Normal": 3.0,
+    "Lento": 4.0,
+    "Muy lento": 6.0
+  },
+  "cortes_transitorio_por_cajero_y_replica": {
+    "1": [
+      418,
+      414,
+      427,
+      436,
+      1204,
+      1924,
+      425,
+      444,
+      433,
+      417
+    ],
+    "2": [
+      446,
+      444,
+      425,
+      414,
+      868,
+      425,
+      448,
+      84,
+      424,
+      434
+    ],
+    "3": [
+      414,
+      432,
+      1854,
+      430,
+      550,
+      421,
+      425,
+      438,
+      424,
+      429
+    ]
+  },
+  "hipotesis": "Llegadas Poisson por fila con media entre llegadas ponderada; tipo asignado por porcentajes; servicio exponencial según tipo.",
+  "fecha_exportacion": "2026-11-26T20:57:40"
+}
